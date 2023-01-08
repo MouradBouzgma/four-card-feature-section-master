@@ -14,10 +14,6 @@
   --Very-Light-Gray: hsl(0, 0%, 98%);
 }
 
-html {
-  font-size: 15px;
-}
-
 body {
   font-family: 'Poppins', sans-serif;
   background-color: var(--Very-Light-Gray);
@@ -38,26 +34,27 @@ main {
 }
 
 
-main .intro {
+header .intro {
   text-align: center;
   margin-top: 50px;
   padding: 0px 15px;
 
 }
 
-main .intro p:first-of-type {
+header .intro h1 {
   font-size: 2rem;
   font-weight: 200;
   color: var(--Very-Dark-Blue);
 }
 
-main .intro p:nth-of-type(2) {
+header .intro span {
+  display: block;
   font-size: 2rem;
   font-weight: 600;
   color: var(--Very-Dark-Blue);
 }
 
-main .intro p:last-of-type {
+header .intro p:last-of-type {
   color: var(--Grayish-Blue);
   max-width: 500px;
   margin: auto;
